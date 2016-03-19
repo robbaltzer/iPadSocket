@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0976FD16DC02B6003B5AB5 /* SMSocket_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E0976FC16DC02B6003B5AB5 /* SMSocket_icon.png */; };
+		3E0EB4EA16A6368500FB5ADC /* Trace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0EB4E916A6368500FB5ADC /* Trace.m */; };
+		3E0EB53816A6F7EB00FB5ADC /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0EB53716A6F7EB00FB5ADC /* AsyncSocket.m */; };
+		3E0EB55416A7031100FB5ADC /* SocketControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0EB55316A7031100FB5ADC /* SocketControl.m */; };
+		3E1B750D16ADC61C00BE1447 /* PacketHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1B750C16ADC61C00BE1447 /* PacketHandler.m */; };
+		3E1B751116ADC6B700BE1447 /* PageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1B751016ADC6B700BE1447 /* PageData.m */; };
+		3E2913DA16A620E00069EF8E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2913D916A620E00069EF8E /* CFNetwork.framework */; };
+		3E37B33616A9B868004DA313 /* EASessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37B33516A9B868004DA313 /* EASessionController.m */; };
+		3E37B33816A9B8B0004DA313 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E37B33716A9B8B0004DA313 /* ExternalAccessory.framework */; };
+		3E37B34316AD90EB004DA313 /* SendPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37B34216AD90EB004DA313 /* SendPacket.m */; };
+		3E37B34616AD9130004DA313 /* MyPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37B34516AD9130004DA313 /* MyPacket.m */; };
+		3EAFCB3916A610C20092B552 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFCB3816A610C20092B552 /* UIKit.framework */; };
+		3EAFCB3B16A610C20092B552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFCB3A16A610C20092B552 /* Foundation.framework */; };
+		3EAFCB3D16A610C20092B552 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFCB3C16A610C20092B552 /* CoreGraphics.framework */; };
+		3EAFCB4316A610C20092B552 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFCB4116A610C20092B552 /* InfoPlist.strings */; };
+		3EAFCB4516A610C30092B552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFCB4416A610C30092B552 /* main.m */; };
+		3EAFCB4916A610C30092B552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFCB4816A610C30092B552 /* AppDelegate.m */; };
+		3EAFCB4B16A610C30092B552 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFCB4A16A610C30092B552 /* Default.png */; };
+		3EAFCB4D16A610C30092B552 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFCB4C16A610C30092B552 /* Default@2x.png */; };
+		3EAFCB4F16A610C30092B552 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFCB4E16A610C30092B552 /* Default-568h@2x.png */; };
+		3EAFCB5216A610C30092B552 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFCB5016A610C30092B552 /* MainStoryboard.storyboard */; };
+		3EAFCB5516A610C30092B552 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFCB5416A610C30092B552 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E0976FC16DC02B6003B5AB5 /* SMSocket_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMSocket_icon.png; sourceTree = "<group>"; };
+		3E0976FE16DC0315003B5AB5 /* SMSocket_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMSocket_icon.png; sourceTree = "<group>"; };
+		3E0EB4E816A6368500FB5ADC /* Trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trace.h; sourceTree = "<group>"; };
+		3E0EB4E916A6368500FB5ADC /* Trace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trace.m; sourceTree = "<group>"; };
+		3E0EB53216A6F36800FB5ADC /* protocol_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol_defs.h; sourceTree = "<group>"; };
+		3E0EB53416A6F36F00FB5ADC /* VersionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionInfo.h; sourceTree = "<group>"; };
+		3E0EB53616A6F7EB00FB5ADC /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		3E0EB53716A6F7EB00FB5ADC /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		3E0EB55216A7031100FB5ADC /* SocketControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketControl.h; sourceTree = "<group>"; };
+		3E0EB55316A7031100FB5ADC /* SocketControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketControl.m; sourceTree = "<group>"; };
+		3E1B750B16ADC61C00BE1447 /* PacketHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketHandler.h; sourceTree = "<group>"; };
+		3E1B750C16ADC61C00BE1447 /* PacketHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacketHandler.m; sourceTree = "<group>"; };
+		3E1B750F16ADC6B700BE1447 /* PageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageData.h; sourceTree = "<group>"; };
+		3E1B751016ADC6B700BE1447 /* PageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageData.m; sourceTree = "<group>"; };
+		3E2913D916A620E00069EF8E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3E37B33416A9B868004DA313 /* EASessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASessionController.h; sourceTree = "<group>"; };
+		3E37B33516A9B868004DA313 /* EASessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASessionController.m; sourceTree = "<group>"; };
+		3E37B33716A9B8B0004DA313 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		3E37B34116AD90EB004DA313 /* SendPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendPacket.h; sourceTree = "<group>"; };
+		3E37B34216AD90EB004DA313 /* SendPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendPacket.m; sourceTree = "<group>"; };
+		3E37B34416AD9130004DA313 /* MyPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPacket.h; sourceTree = "<group>"; };
+		3E37B34516AD9130004DA313 /* MyPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPacket.m; sourceTree = "<group>"; };
+		3EAFCB3416A610C20092B552 /* SMSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAFCB3816A610C20092B552 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3EAFCB3A16A610C20092B552 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3EAFCB3C16A610C20092B552 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3EAFCB4016A610C20092B552 /* SMSocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMSocket-Info.plist"; sourceTree = "<group>"; };
+		3EAFCB4216A610C20092B552 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EAFCB4416A610C30092B552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EAFCB4616A610C30092B552 /* SMSocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMSocket-Prefix.pch"; sourceTree = "<group>"; };
+		3EAFCB4716A610C30092B552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EAFCB4816A610C30092B552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EAFCB4A16A610C30092B552 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3EAFCB4C16A610C30092B552 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3EAFCB4E16A610C30092B552 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3EAFCB5116A610C30092B552 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3EAFCB5316A610C30092B552 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EAFCB5416A610C30092B552 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EAFCB3116A610C20092B552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2913DA16A620E00069EF8E /* CFNetwork.framework in Frameworks */,
+				3E37B33816A9B8B0004DA313 /* ExternalAccessory.framework in Frameworks */,
+				3EAFCB3916A610C20092B552 /* UIKit.framework in Frameworks */,
+				3EAFCB3B16A610C20092B552 /* Foundation.framework in Frameworks */,
+				3EAFCB3D16A610C20092B552 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0EB53516A6F56E00FB5ADC /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				3E0EB53616A6F7EB00FB5ADC /* AsyncSocket.h */,
+				3E0EB53716A6F7EB00FB5ADC /* AsyncSocket.m */,
+			);
+			name = AsyncSocket;
+			sourceTree = "<group>";
+		};
+		3E37B33216A9B84D004DA313 /* iPad Communication */ = {
+			isa = PBXGroup;
+			children = (
+				3E1B750F16ADC6B700BE1447 /* PageData.h */,
+				3E1B751016ADC6B700BE1447 /* PageData.m */,
+				3E1B750B16ADC61C00BE1447 /* PacketHandler.h */,
+				3E1B750C16ADC61C00BE1447 /* PacketHandler.m */,
+				3E37B34416AD9130004DA313 /* MyPacket.h */,
+				3E37B34516AD9130004DA313 /* MyPacket.m */,
+				3E37B34116AD90EB004DA313 /* SendPacket.h */,
+				3E37B34216AD90EB004DA313 /* SendPacket.m */,
+				3E37B33416A9B868004DA313 /* EASessionController.h */,
+				3E37B33516A9B868004DA313 /* EASessionController.m */,
+			);
+			name = "iPad Communication";
+			sourceTree = "<group>";
+		};
+		3EAFCB2916A610C20092B552 = {
+			isa = PBXGroup;
+			children = (
+				3E0976FE16DC0315003B5AB5 /* SMSocket_icon.png */,
+				3EAFCB3E16A610C20092B552 /* SMSocket Source */,
+				3EAFCB3716A610C20092B552 /* Frameworks */,
+				3EAFCB3516A610C20092B552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EAFCB3516A610C20092B552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EAFCB3416A610C20092B552 /* SMSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EAFCB3716A610C20092B552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E37B33716A9B8B0004DA313 /* ExternalAccessory.framework */,
+				3E2913D916A620E00069EF8E /* CFNetwork.framework */,
+				3EAFCB3816A610C20092B552 /* UIKit.framework */,
+				3EAFCB3A16A610C20092B552 /* Foundation.framework */,
+				3EAFCB3C16A610C20092B552 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EAFCB3E16A610C20092B552 /* SMSocket Source */ = {
+			isa = PBXGroup;
+			children = (
+				3E37B33216A9B84D004DA313 /* iPad Communication */,
+				3E0EB53516A6F56E00FB5ADC /* AsyncSocket */,
+				3E0EB53416A6F36F00FB5ADC /* VersionInfo.h */,
+				3E0EB53216A6F36800FB5ADC /* protocol_defs.h */,
+				3E0EB4E816A6368500FB5ADC /* Trace.h */,
+				3E0EB4E916A6368500FB5ADC /* Trace.m */,
+				3EAFCB4716A610C30092B552 /* AppDelegate.h */,
+				3EAFCB4816A610C30092B552 /* AppDelegate.m */,
+				3EAFCB5016A610C30092B552 /* MainStoryboard.storyboard */,
+				3EAFCB5316A610C30092B552 /* ViewController.h */,
+				3EAFCB5416A610C30092B552 /* ViewController.m */,
+				3EAFCB3F16A610C20092B552 /* Supporting Files */,
+				3E0EB55216A7031100FB5ADC /* SocketControl.h */,
+				3E0EB55316A7031100FB5ADC /* SocketControl.m */,
+			);
+			name = "SMSocket Source";
+			path = SMSocket;
+			sourceTree = "<group>";
+		};
+		3EAFCB3F16A610C20092B552 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E0976FC16DC02B6003B5AB5 /* SMSocket_icon.png */,
+				3EAFCB4016A610C20092B552 /* SMSocket-Info.plist */,
+				3EAFCB4116A610C20092B552 /* InfoPlist.strings */,
+				3EAFCB4416A610C30092B552 /* main.m */,
+				3EAFCB4616A610C30092B552 /* SMSocket-Prefix.pch */,
+				3EAFCB4A16A610C30092B552 /* Default.png */,
+				3EAFCB4C16A610C30092B552 /* Default@2x.png */,
+				3EAFCB4E16A610C30092B552 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EAFCB3316A610C20092B552 /* SMSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAFCB5816A610C30092B552 /* Build configuration list for PBXNativeTarget "SMSocket" */;
+			buildPhases = (
+				3EAFCB3016A610C20092B552 /* Sources */,
+				3EAFCB3116A610C20092B552 /* Frameworks */,
+				3EAFCB3216A610C20092B552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSocket;
+			productName = SMSocket;
+			productReference = 3EAFCB3416A610C20092B552 /* SMSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EAFCB2B16A610C20092B552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Rob Baltzer";
+			};
+			buildConfigurationList = 3EAFCB2E16A610C20092B552 /* Build configuration list for PBXProject "SMSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3EAFCB2916A610C20092B552;
+			productRefGroup = 3EAFCB3516A610C20092B552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EAFCB3316A610C20092B552 /* SMSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EAFCB3216A610C20092B552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAFCB4316A610C20092B552 /* InfoPlist.strings in Resources */,
+				3EAFCB4B16A610C30092B552 /* Default.png in Resources */,
+				3EAFCB4D16A610C30092B552 /* Default@2x.png in Resources */,
+				3EAFCB4F16A610C30092B552 /* Default-568h@2x.png in Resources */,
+				3EAFCB5216A610C30092B552 /* MainStoryboard.storyboard in Resources */,
+				3E0976FD16DC02B6003B5AB5 /* SMSocket_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EAFCB3016A610C20092B552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAFCB4516A610C30092B552 /* main.m in Sources */,
+				3EAFCB4916A610C30092B552 /* AppDelegate.m in Sources */,
+				3EAFCB5516A610C30092B552 /* ViewController.m in Sources */,
+				3E0EB4EA16A6368500FB5ADC /* Trace.m in Sources */,
+				3E0EB53816A6F7EB00FB5ADC /* AsyncSocket.m in Sources */,
+				3E0EB55416A7031100FB5ADC /* SocketControl.m in Sources */,
+				3E37B33616A9B868004DA313 /* EASessionController.m in Sources */,
+				3E37B34316AD90EB004DA313 /* SendPacket.m in Sources */,
+				3E37B34616AD9130004DA313 /* MyPacket.m in Sources */,
+				3E1B750D16ADC61C00BE1447 /* PacketHandler.m in Sources */,
+				3E1B751116ADC6B700BE1447 /* PageData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EAFCB4116A610C20092B552 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EAFCB4216A610C20092B552 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3EAFCB5016A610C30092B552 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EAFCB5116A610C30092B552 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EAFCB5616A610C30092B552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rob Baltzer (BXUPCA7TZ5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rob Baltzer (BXUPCA7TZ5)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "595E5F92-4CEE-465C-91D5-A5660CF179E4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "595E5F92-4CEE-465C-91D5-A5660CF179E4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3EAFCB5716A610C30092B552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Avnera Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Avnera Corporation";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "67D27274-E555-456D-A9CF-84D757CE9E8B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "67D27274-E555-456D-A9CF-84D757CE9E8B";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EAFCB5916A610C30092B552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rob Baltzer (BXUPCA7TZ5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rob Baltzer (BXUPCA7TZ5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMSocket/SMSocket-Prefix.pch";
+				INFOPLIST_FILE = "SMSocket/SMSocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "595E5F92-4CEE-465C-91D5-A5660CF179E4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "595E5F92-4CEE-465C-91D5-A5660CF179E4";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3EAFCB5A16A610C30092B552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Avnera Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Avnera Corporation";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMSocket/SMSocket-Prefix.pch";
+				INFOPLIST_FILE = "SMSocket/SMSocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67D27274-E555-456D-A9CF-84D757CE9E8B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "67D27274-E555-456D-A9CF-84D757CE9E8B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EAFCB2E16A610C20092B552 /* Build configuration list for PBXProject "SMSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAFCB5616A610C30092B552 /* Debug */,
+				3EAFCB5716A610C30092B552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EAFCB5816A610C30092B552 /* Build configuration list for PBXNativeTarget "SMSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAFCB5916A610C30092B552 /* Debug */,
+				3EAFCB5A16A610C30092B552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EAFCB2B16A610C20092B552 /* Project object */;
+}

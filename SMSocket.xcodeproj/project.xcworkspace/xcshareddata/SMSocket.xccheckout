@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>98F1C9C6-A34C-4747-93A8-43382737ADA5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SMSocket</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ED1046CAF7C09210D7ADDB784DB5978B0911EDE8</key>
+		<string>github.com:Avnera/SMSocket.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SMSocket.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ED1046CAF7C09210D7ADDB784DB5978B0911EDE8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Avnera/SMSocket.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ED1046CAF7C09210D7ADDB784DB5978B0911EDE8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED1046CAF7C09210D7ADDB784DB5978B0911EDE8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SMSocket</string>
+		</dict>
+	</array>
+</dict>
+</plist>
